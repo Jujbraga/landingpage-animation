@@ -1,12 +1,8 @@
 footer {
   max-width: 80rem;
   width: 100%;
-  padding: 4rem 2rem 2rem;
+  padding: 3rem var(--padding-inline) 1.5rem;
   margin-inline: auto;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 
   & .logo {
     display: flex;
@@ -26,8 +22,11 @@ footer {
   }
 
   & nav {
-    gap: 2rem;
+    flex-direction: column;
+    align-items: start;
     justify-content: center;
+    gap: clamp(1.5rem, 4vw, 2rem);
+    padding-inline: 0;
 
     & a {
       width: fit-content;
@@ -93,6 +92,18 @@ footer {
         scale: 0;
         transition: scale 300ms;
       }
+    }
+  }
+
+  @media (width >= 65em) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem var(--padding-inline) 2rem;
+
+    & nav {
+      flex-direction: row;
+      align-items: center;
     }
   }
 }

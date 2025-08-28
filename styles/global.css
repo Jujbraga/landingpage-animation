@@ -20,10 +20,12 @@
 
   --ff-base: "Montserrat", sans-serif;
 
-  --text-sm: 0.875rem;
+  --text-sm: 0.75rem;
   --text-base: 1rem;
-  --text-lg: 2.5rem;
-  --text-xl: 4rem;
+  --text-lg: 1.5rem;
+  --text-xl: 2rem;
+
+  --padding-inline: 1.5rem;
 }
 
 html,
@@ -49,4 +51,14 @@ h2 {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+@media (width >= 65em) {
+  :root {
+    --text-sm: 0.875rem;
+    --text-lg: 2.5rem;
+    --text-xl: 4rem;
+
+    --padding-inline: 2rem;
+  }
 }
