@@ -1,7 +1,7 @@
 # 🌐 Landing Page Animation - Snitap
 
-[![Site Status](https://img.shields.io/website?url=https%3A%2F%2Fjujbraga.github.io%2Fzingen%2F)](https://jujbraga.github.io/zingen/)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/Jujbraga/zingen)
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://jujbraga.github.io/landingpage-animation/)  
+[![GitHub Repo](https://img.shields.io/badge/code-GitHub-blue.svg)](https://github.com/Jujbraga/landingpage-animation)  
 
 This is a **front-end educational project** that focuses on practicing **semantic HTML5 and CSS animation**, simulating a modern landing page with smooth, visually appealing transitions and effects. 
 
