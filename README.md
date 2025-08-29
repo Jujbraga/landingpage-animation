@@ -23,5 +23,5 @@ This is a **front-end educational project** that focuses on practicing **semanti
 ## 🛠️ Technologies Used
 - **HTML5** – semantic and accessible markup.  
 - **CSS3** – animations, transitions, and responsive styling.
-- **Git & GitHub** – animations, transitions, and responsive styling.
+- **Git & GitHub**
 - **Figma**
